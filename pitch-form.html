@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smarter Barter Pitch Form</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      color: #f5c542;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    form {
+      background-color: #1a1a1a;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #f5c542;
+      width: 100%;
+      max-width: 500px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 1rem;
+      margin: 1rem 0;
+      background-color: #0d0d0d;
+      color: #f5c542;
+      border: 1px solid #f5c542;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #f5c542;
+      color: #0d0d0d;
+      font-weight: bold;
+      border: none;
+      padding: 1rem;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ffd700;
+    }
+  </style>
+</head>
+<body>
+  <h1>Smarter Barter Developer Pitch</h1>
+  <form action="https://formspree.io/f/xqaqwwzk" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Why do you want to join this mission?" rows="5" required></textarea>
+    <button type="submit">Send My Pitch</button>
+  </form>
+</body>
+</html>
